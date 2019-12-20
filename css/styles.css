@@ -1,0 +1,664 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-index {
+    position: absolute;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  navbar .container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .menu {
+    margin-left: 20%;
+    width: 170%;
+  }
+  
+  header img {
+    width: 70%;
+    opacity: 0.8;
+    margin-top: 8%;
+  }
+  
+  .instagram {
+    width: 150%;
+    margin-left: 20%;
+    opacity: 0.8;
+  }
+  
+  .banner h1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  
+  .landing-s {
+    background-image: url("https://res.cloudinary.com/dhpkox6fy/image/upload/v1553967407/IMG_6841_copia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 30%;
+  }
+  
+  .banner {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .banner h2 {
+    color: white;
+    font-weight: 100;
+  }
+  
+  .author {
+    display: flex;
+    align-content: space-around;
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alessandro {
+    font-family: "Kaushan Script", cursive;
+    margin-left: 2%;
+    font-size: 30px;
+  }
+  
+  .skills {
+    display: flex;
+    align-content: space-around;
+    font-family: Montserrat;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills h2 {
+    margin-left: 1%;
+  }
+  
+  .skills img {
+    width: 25px;
+  }
+  
+  .s-pictures {
+    padding-top: 15%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    opacity: 0.8; 
+  }
+  
+  .pictures {
+    width: 280px;
+  }
+  .pictures img {
+    width: 83px;
+    height: 65px;
+    border-radius: 20px;
+    margin: 2px;
+  }
+  
+  .rectangle {
+    position: absolute;
+    height: 250px;
+    width: 180px;
+    background: rgba(100, 100, 100, 0.9);
+    border-radius: 60px;
+    align-self: center;
+    margin-left: 40px;
+  }
+  
+  .rectangle div {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .rectangle h2 {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Times New Roman;
+    letter-spacing: 1.3px;
+    width: 130px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    opacity: 1;
+    font-weight: 100;
+    padding: 10px;
+  }
+  
+  .banner2 {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .button1 {
+    margin: 0 auto;
+    width: 130px;
+    text-transform: uppercase;
+    border: 1px solid;
+    color: white;
+    font-family: Times New Roman;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: #646464;
+  }
+  
+  .banner3 {
+    background-image: url("https://res.cloudinary.com/dhpkox6fy/image/upload/v1554174461/IMG_6684.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    height: 300px;
+  }
+  
+  .banner3 h2 {
+    width: 100px;
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-family:Montserrat;
+    text-align:center;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  
+  .button2 {
+    width: 130px;
+    text-transform: uppercase;
+    border: 1px solid;
+    color: white;
+    text-align: center;
+    font-family:Montserrat;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px 30px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: #646464;
+  }
+  
+  .social-media {
+    padding-top: 3%;
+    display: flex;
+  }
+  
+  .social img {
+    width: 45px;
+    padding: 0 2px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  footer {
+    padding-top: 3%;
+    width: 207px;
+    margin: 0 auto;
+  }
+  
+  footer .logo {
+    margin-left: 10px;
+    width: 45px;
+    text-align: center;
+  }
+  
+  /* gallery.html */
+  
+  .featured img {
+    width: 180px;
+    margin-left: 3%;
+    align-self: center;
+  }
+  
+  .gallery h1 {
+    margin: 0 auto;
+    width: 140px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 0.5px solid;
+    color: #646464;
+    font-family: Montserrat;
+    font-weight: 100;
+    letter-spacing: 5px;
+    opacity:0.8;
+  }
+  
+  .gallery h2 {
+    padding: 15px 0;
+    margin: 0 auto;
+    width: 140px;
+    text-align: center;
+    color: #646464;
+    font-size: 30px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 100;
+    letter-spacing: 5px;
+    opacity:0.8;
+  }
+  
+  .banner-g {
+    display: flex;
+  }
+  
+  .banner-g h3 {
+    width: 175px;
+    margin-left: 4%;
+    padding-left: 4%;
+    border-left: solid 1px;
+    color: #646464;
+    font-family: Montserrat;
+    font-weight: 200;
+    letter-spacing: 1px;
+    opacity:0.8;
+    line-height: 2;
+  }
+  
+  .photos {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    border-bottom: solid 0.5px;
+    color: #646464;
+    font-family: Montserrat;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    line-height: 2;
+  }
+  
+  .album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .album img {
+    width: 45%;
+    align-self: center;
+    padding: 5px;
+  }
+  
+  /* aboutme.html */
+  
+  .aboutme h1 {
+    margin: 0 auto;
+    width: 156px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 0.5px solid;
+    color: #646464;
+    font-family: Montserrat;
+    font-weight: 100;
+    letter-spacing: 3px;
+    opacity:0.8;
+  }
+  
+  .banner-a {
+    background-image: linear-gradient(
+      rgba(0,0,0, 0.1),
+      rgba(0,0,0, 0.1)), url("https://res.cloudinary.com/dhpkox6fy/image/upload/v1544338538/IMG_6724.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    height: 300px;
+  }
+  
+  .banner-a h2 {
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 300;
+    letter-spacing: 3px;
+    opacity:0.8;
+  }
+  
+  .banner-a .arrow {
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .aboutme p {
+    padding-top: 5%;
+    margin: 0 auto;
+    width: 240px;
+    text-align: center;
+    color: #646464;
+    font-family: Montserrat;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+  
+  /* menu.html */
+  
+  .body-m {
+    background-color: #C7C7C7;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .menu-m img {
+    width: 150%;
+    margin-left: 20px; 
+    padding: 0;
+  }
+  
+  .menu-m .x {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+  }
+  
+  .menu-titles a {
+    text-decoration: none;
+  }
+  
+  .menu-titles h1 {
+    padding: 0;
+    margin: 0 auto;
+    width: 150px;
+    text-align: center;
+    border-bottom: 0.5px solid;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+  
+  .navigation {
+    display: none;
+  }
+  .logo1 {
+    display: none;
+  }
+  
+  .logo2 {
+    display: none;
+  }
+  /* -------------- iPad version -------------- */
+  /* index.hmtl */
+  @media screen and (min-width: 768px) {
+    .container {
+      margin: 0 auto;
+    }
+    
+    .logo1 {
+      margin: 0 auto;
+      padding-bottom: 5px;
+      display: block;
+    }
+    .landing-s {
+    background-image: linear-gradient(
+      rgba(0,0,0, 0.1),
+      rgba(0,0,0, 0.1)), url("https://res.cloudinary.com/dhpkox6fy/image/upload/v1543981498/IMG_6653.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 10%;
+  }
+    
+    .header-index-ipad {
+    position: relative;
+  }
+    
+    .menu, .instagram {
+      display: none;
+    }
+    
+    .navigation {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      
+    }
+    
+    .navigation ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+      align-content: center;
+      margin: 0 auto;
+     }
+    
+    .navigation ul li a {
+      text-decoration: none;
+      padding: 0 20px;
+      font-size: 16px;
+      font-family: Montserrat;
+      font-weight: 300;
+      color: #646464;
+      letter-spacing: 2px;
+    }
+    
+    .navigation li:hover {
+    border-bottom: 0.2px solid #646464;
+    line-height: 0.98;
+    }
+    
+    header img {
+    width: 50%;
+    opacity: 0.8;
+    margin-top: 8%;
+  
+  }
+  
+  .banner h1 {
+   width: 600px;
+    }
+    
+   .s-pictures {
+    padding-top: 7%;
+    margin-left: 0%;
+    padding-bottom: 5%;
+    }
+    
+    .rectangle {
+    position: relative;
+    height: 280px;
+    width: 250px; 
+  }
+    
+    .rectangle h2 {
+      font-size: 30px;
+      padding-top: 35px;
+      width: 160px;
+      line-height: 1.2;
+  }
+  
+    .button2 {
+    width: 130px;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 8px 30px;
+  }
+  
+    .banner3 { 
+    height: 500px;
+    }
+    
+    .banner3 h2 {
+    width: 110px;
+    font-size: 45px;
+    font-weight: 300;
+    }
+    
+    .button2 {
+    width: 150px;
+    border: 1px solid;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 30px;
+  }
+  
+  /* gallery.hmtl */
+    
+    header .logo {
+      display: none;
+    }
+    
+    .logo2 {
+      display: block;
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+    
+    .gallery h1 {
+      display: none;
+    }
+    
+    .banner-g img {
+      display: none;
+    }
+    
+    .banner-g h3{
+    margin: 0 auto;
+    width: 320px;
+    text-align: center;
+    border-left: none;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    opacity: 1;
+    line-height: 1.5;
+    }
+    
+    .featured {
+    background-image: linear-gradient(
+      rgba(0,0,0, 0.1),
+      rgba(0,0,0, 0.1)), url("https://res.cloudinary.com/dhpkox6fy/image/upload/v1544335406/IMG_9821.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 330px;
+    }
+    
+    .featured h2 {
+      padding-top: 35px;
+      color: white;
+      font-size: 60px;
+    }
+    
+    .album img {
+    width: 30%;
+    align-self: center;
+    padding: 8px;
+  }
+  
+  /*  aboutme.hmtl  */
+    
+    .aboutme h1 {
+      display: none;
+    }
+    
+    .banner-a h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    }
+    
+    /* -------------- Desktop version -------------- */
+  /* index.html */
+  @media screen and (min-width: 1200px) {
+    .container {
+      margin: 0 auto;
+    }
+    
+    .rectangle {
+    position: relative;
+    height: 330px;
+    width: 270px;
+    margin-left: 120px;
+  }
+    
+    .rectangle h2 {
+      font-size: 35px;
+      padding-top: 35px;
+      width: 160px;
+      line-height: 1.2;
+  }
+    
+    .pictures {
+    width: 300px;
+  }
+    .pictures img {
+    width: 90px;
+    height: 70px;
+    border-radius: 20px;
+    margin: 3px;
+  }
+    
+    .button1 {
+    margin: 0 auto;
+    width: 150px;
+    text-transform: uppercase;
+    border: 1px solid;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 12px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    }
+  
+    .button2 {
+      font-size: 25px;
+    }
+    
+    .skills img {
+    width: 30px;
+  }
+    
